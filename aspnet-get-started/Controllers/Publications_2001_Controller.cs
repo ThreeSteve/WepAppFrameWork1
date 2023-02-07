@@ -14,6 +14,21 @@ namespace aspnet_get_started.Controllers
             return View();
         }
 
+
+        public ActionResult About()
+        {
+            ViewBag.Message = "18:37 McClaren Publications";
+
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "18:37 McClaren Contact";
+
+            return View();
+        }
+
         // GET: Publications_2001_/Details/5
         public ActionResult Details(int id)
         {
