@@ -15,14 +15,14 @@ namespace aspnet_get_started.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "18:05 Your Risk Evo Test application description page.";
+            ViewBag.Message = "18:24 Your Risk Evo Test application description page.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "18:05 Your contact page. Woking, Costcutter";
+            ViewBag.Message = "18:24 Your contact page. Woking, Costcutter";
 
             return View();
         }
